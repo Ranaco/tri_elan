@@ -1,0 +1,19 @@
+.carousel_base {
+  margin-top: 100px;
+  display: flex;
+  gap: 30px;
+  transform: translate(30%, 10%);
+  margin-right: 100px;
+  position: relative;
+  overflow-x: hidden;
+  user-select: none;
+}
+
+.carousel_child {
+  object-position: center;
+  transform: rotate3d(0, 0, 0, 45deg);
+  height: max(50vh, 400px);
+  aspect-ratio: 12/16;
+  object-fit: cover;
+  border-radius: 10px;
+}
