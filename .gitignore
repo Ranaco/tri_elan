@@ -1,0 +1,8 @@
+app/node_modules/
+app/.next/
+app/.env
+app/next-env.d.ts
+app/package-lock.json
+
+core/package-lock.json
+
